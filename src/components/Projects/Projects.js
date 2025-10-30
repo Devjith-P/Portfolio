@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import Brdx from "../../Assets/Projects/Brdx.png";
-import ml from "../../Assets/Projects/Machine_learning.png";
+import ml from "../../Assets/Projects/grocery.jpeg";
+import Brdx from "../../Assets/Projects/Machine_learning.png";
 
 import caredot from "../../Assets/Projects/caredot.png";
 
@@ -21,17 +21,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Brdx}
-              isBlog={false}
-              title="BrDX"
-              description="Brain Tumour classification and segmentation using CNN and U-NET"
-              ghLink="https://github.com/Devjith-P/BrDX"
-              demoLink="https://brdxmodel.streamlit.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={caredot}
               isBlog={false}
               title="Care-dot"
@@ -43,12 +32,24 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={Brdx}
+              isBlog={false}
+              title="BrDX"
+              description="Brain Tumour classification and segmentation using CNN and U-NET."
+              ghLink="https://github.com/Devjith-P/BrDX"
+              demoLink="https://brdxmodel.streamlit.app/"
+            />
+          </Col>
+
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={ml}
               isBlog={false}
-              title="Machine Learning"
-              description="The repository with all my machine learning projects."
-              ghLink="https://github.com/Devjith-P/Machine-Learning"
-              //demoLink="https://caredot.netlify.app/index.html  "
+              title="Smart Grocery and Recipe Recomendation"
+              description="A model that predicts major nutrient deficiency and suggest groceries and recipe."
+              ghLink="https://github.com/Devjith-P/Smart-Grocery"
+              demoLink="https://smartgrocery.streamlit.app/"
             />
           </Col>
 
