@@ -25,7 +25,7 @@ function Home2() {
                 <b className="purple"> Python </b>
               </i>
               and experience in working with{" "}
-              <b className="purple">SQL</b> and{" "}
+              <b className="purple">MySQL</b> and{" "}
               <b className="purple">Data Science tools.</b>
               <br />
               <br />
@@ -50,7 +50,7 @@ function Home2() {
               </i>{" "}
               and I’m also skilled in{" "}
               
-              <b className="purple">MySQL</b> for data visualization and
+              <b className="purple">Power BI</b> for data visualization and
               applications.
               <br />
               <br />
